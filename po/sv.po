@@ -20,7 +20,7 @@ msgstr ""
 #: gufw/gufw/instance.py:48
 #, python-format
 msgid "Error: %s is writable"
-msgstr ""
+msgstr "Fel: %s är skrivbar"
 
 #: gufw/gufw/instance.py:49
 #, python-format
@@ -28,6 +28,8 @@ msgid ""
 "Your %s directory is writable.\n"
 "Fix it running from Terminal:"
 msgstr ""
+"Din katalog %s är skrivbar.\n"
+"Åtgärda detta genom att köra följande i terminalen:"
 
 #: gufw/gufw/instance.py:81
 msgid "Please, just one Gufw's instance"
@@ -574,11 +576,11 @@ msgstr "Bekräfta borttagningsdialog: Inaktiverad"
 
 #: gufw/gufw/view/preferences.py:190
 msgid "Show profiles: Enabled"
-msgstr ""
+msgstr "Visa profiler: aktiverat"
 
 #: gufw/gufw/view/preferences.py:198
 msgid "Show profiles: Disabled"
-msgstr ""
+msgstr "Visa profiler: inaktiverat"
 
 #: gufw/gufw/view/preferences.py:210
 msgid "Refresh Interval: "
@@ -610,7 +612,7 @@ msgstr "Om Gufw-brandväggen"
 
 #: data/ui/about.ui:21
 msgid "An easy, simple, nice and useful firewall!"
-msgstr ""
+msgstr "En lättanvänd, enkel, trevlig och användbar brandvägg!"
 
 #: data/ui/about.ui:670
 msgid "translator-credits"
@@ -949,7 +951,7 @@ msgstr "Visa bekräftelsedialog för att ta bort regler"
 
 #: data/ui/preferences.ui:196
 msgid "Show profiles"
-msgstr ""
+msgstr "Visa profiler"
 
 #: data/ui/preferences.ui:223
 msgid "<b>Gufw</b>"
@@ -1028,15 +1030,15 @@ msgstr "Nätverksspel som använder DirectX 8 API"
 
 #: DEV_extra_translations/extra_translations.py:13
 msgid "Tvheadend"
-msgstr ""
+msgstr "Tvheadend"
 
 #: DEV_extra_translations/extra_translations.py:14
 msgid "TV streaming server and digital video recorder"
-msgstr ""
+msgstr "TV-strömningsserver och digital videoinspelare"
 
 #: DEV_extra_translations/extra_translations.py:15
 msgid "Media;Multimedia;Network;Streaming;TV;"
-msgstr ""
+msgstr "Media;Multimedia;Nätverk;Strömning;TV;"
 
 #: DEV_extra_translations/extra_translations.py:16
 msgid "Murmur"
@@ -1084,17 +1086,19 @@ msgstr "Internet Relay Chat med SSL standardport 6697"
 
 #: DEV_extra_translations/extra_translations.py:26
 msgid "Parsec"
-msgstr ""
+msgstr "Parsec"
 
 #: DEV_extra_translations/extra_translations.py:27
 msgid ""
 "A desktop capturing application primarily used for playing games through "
 "video streaming. "
 msgstr ""
+"Ett program för skärminspelning som främst används för att spela spel via "
+"videoströmning. "
 
 #: DEV_extra_translations/extra_translations.py:28
 msgid "Games"
-msgstr ""
+msgstr "Spel"
 
 #: DEV_extra_translations/extra_translations.py:29
 msgid "Wormux"
@@ -1291,16 +1295,18 @@ msgstr "En FPS byggd på motorn Torque"
 
 #: DEV_extra_translations/extra_translations.py:77
 msgid "Bitwig"
-msgstr ""
+msgstr "Bitwig"
 
 #: DEV_extra_translations/extra_translations.py:78
 msgid ""
 "Multi-platform music-creation system for production, performance and DJing"
 msgstr ""
+"Plattformsoberoende musikskapande system för produktion, framträdanden och "
+"DJ:ande"
 
 #: DEV_extra_translations/extra_translations.py:79
 msgid "Audio Video;Music;"
-msgstr ""
+msgstr "Ljud Video;Musik;"
 
 #: DEV_extra_translations/extra_translations.py:80
 msgid "LBreakout2 - 8001/udp"
@@ -1346,11 +1352,11 @@ msgstr ""
 
 #: DEV_extra_translations/extra_translations.py:88
 msgid "KODI Remote"
-msgstr ""
+msgstr "KODI-fjärrkontroll"
 
 #: DEV_extra_translations/extra_translations.py:89
 msgid "Remote control for KODI"
-msgstr ""
+msgstr "Fjärrkontroll för KODI"
 
 #: DEV_extra_translations/extra_translations.py:90
 msgid "Audio Video;TV;"
@@ -1549,11 +1555,11 @@ msgstr "En FPS från Ritual Entertainment"
 
 #: DEV_extra_translations/extra_translations.py:136
 msgid "Syncthing Sync"
-msgstr ""
+msgstr "Syncthing Sync"
 
 #: DEV_extra_translations/extra_translations.py:137
 msgid "Syncthing UDP/TCP based sync protocol traffic (default port)"
-msgstr ""
+msgstr "Syncthing-trafik för UDP/TCP-baserat synkroniseringsprotokoll (standardport)"
 
 #: DEV_extra_translations/extra_translations.py:138
 msgid "Network;File Transfer;"
@@ -1561,12 +1567,14 @@ msgstr "Nätverk;Filöverföring;"
 
 #: DEV_extra_translations/extra_translations.py:139
 msgid "Syncthing Local Discovery"
-msgstr ""
+msgstr "Syncthing lokal upptäckt"
 
 #: DEV_extra_translations/extra_translations.py:140
 msgid ""
 "Syncthing discovery broadcasts on IPv4 and multicasts on IPv6 (default port)"
 msgstr ""
+"Syncthing-sökningar sänds som broadcast via IPv4 och multicast via IPv6 "
+"(standardport)"
 
 #: DEV_extra_translations/extra_translations.py:141
 msgid "LPD"
@@ -1578,11 +1586,11 @@ msgstr "LPD-server"
 
 #: DEV_extra_translations/extra_translations.py:143
 msgid "ChromeCast"
-msgstr ""
+msgstr "ChromeCast"
 
 #: DEV_extra_translations/extra_translations.py:144
 msgid "Google Stream device"
-msgstr ""
+msgstr "Google Stream-enhet"
 
 #: DEV_extra_translations/extra_translations.py:145
 msgid "Blood II: The Chosen"
@@ -2221,11 +2229,11 @@ msgstr ""
 
 #: DEV_extra_translations/extra_translations.py:308
 msgid "PI Hole"
-msgstr ""
+msgstr "PI Hole"
 
 #: DEV_extra_translations/extra_translations.py:309
 msgid "PI-Hole"
-msgstr ""
+msgstr "PI-Hole"
 
 #: DEV_extra_translations/extra_translations.py:310
 msgid "Network;Cloud;"
@@ -2486,7 +2494,7 @@ msgstr "NASCAR Racing 2002/03 4 spelare"
 
 #: DEV_extra_translations/extra_translations.py:380
 msgid "NASCAR Racing 2002/03 8 players"
-msgstr ""
+msgstr "NASCAR Racing 2002/03 8 players"
 
 #: DEV_extra_translations/extra_translations.py:382
 msgid "NASCAR Racing 2002/03 16 players"
@@ -2628,7 +2636,7 @@ msgstr "Metaserver för Crossfire RPG"
 
 #: DEV_extra_translations/extra_translations.py:418
 msgid "NRPE Nagios Plugin"
-msgstr ""
+msgstr "NRPE Nagios Plugin"
 
 #: DEV_extra_translations/extra_translations.py:419
 msgid "Remote Plugin Executor"
@@ -3091,7 +3099,7 @@ msgstr "Strategispel från Blizzard Entertainment"
 
 #: DEV_extra_translations/extra_translations.py:537
 msgid "qBittorrent"
-msgstr ""
+msgstr "qBittorrent"
 
 #: DEV_extra_translations/extra_translations.py:538
 msgid "Cross-platform BitTorrent client GUI written with Qt4"
@@ -3154,13 +3162,15 @@ msgstr "Fjärrkontroll för Transmission"
 
 #: DEV_extra_translations/extra_translations.py:553
 msgid "Rygel"
-msgstr ""
+msgstr "Rygel"
 
 #: DEV_extra_translations/extra_translations.py:554
 msgid ""
 "Easier media sharing between Ubuntu and smart TVs, games consoles, and even "
 "other computers"
 msgstr ""
+"Enklare mediedelning mellan Ubuntu och smart-tv-apparater, spelkonsoler och "
+"andra datorer"
 
 #: DEV_extra_translations/extra_translations.py:555
 msgid "Diablo II"
@@ -3585,7 +3595,7 @@ msgstr ""
 
 #: DEV_extra_translations/extra_translations.py:662
 msgid "Network;Services;|Network;File Transfer;"
-msgstr ""
+msgstr "Nätverk;Tjänster;|Nätverk;Filöverföring;"
 
 #: DEV_extra_translations/extra_translations.py:663
 msgid "Armored Fist 3"
@@ -3684,7 +3694,7 @@ msgstr "En klon av TrackMania från Nadeo"
 
 #: DEV_extra_translations/extra_translations.py:689
 msgid "ManiaDrive HTTP server"
-msgstr ""
+msgstr "ManiaDrive HTTP server"
 
 #: DEV_extra_translations/extra_translations.py:690
 msgid "ManiaDrive/Raydium game monitor HTTP server"
@@ -3818,11 +3828,11 @@ msgstr ""
 
 #: DEV_extra_translations/extra_translations.py:726
 msgid "Jellyfin"
-msgstr ""
+msgstr "Jellyfin"
 
 #: DEV_extra_translations/extra_translations.py:727
 msgid "Media System"
-msgstr ""
+msgstr "Mediesystem"
 
 #: DEV_extra_translations/extra_translations.py:728
 msgid "Delta Force 2"
@@ -4001,11 +4011,11 @@ msgstr ""
 
 #: DEV_extra_translations/extra_translations.py:769
 msgid "SMPlayer to ChromeCast"
-msgstr ""
+msgstr "SMPlayer to ChromeCast"
 
 #: DEV_extra_translations/extra_translations.py:770
 msgid "Stream SMPlayer to ChromeCast"
-msgstr ""
+msgstr "Strömma SMPlayer till ChromeCast"
 
 #: DEV_extra_translations/extra_translations.py:771
 msgid "Enemy Territory: Quake Wars"
