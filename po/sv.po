@@ -834,7 +834,7 @@ msgstr "R_edigera"
 
 #: data/ui/gufw.ui:137
 msgid "_Reset Current Profile"
-msgstr "_Återställ aktuell profil"
+msgstr "Åters_täll aktuell profil"
 
 #: data/ui/gufw.ui:173
 msgid "_Help"
